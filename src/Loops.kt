@@ -7,4 +7,12 @@ fun main(args: Array<String>) {
         println(j*i)
         i++
     }
+    i=1
+    j=1
+    for(i in 1..20){
+        for(j in 1..20){
+            println("${i} X ${j} = "+(i*j))
+        }
+        println()
+    }
 }
