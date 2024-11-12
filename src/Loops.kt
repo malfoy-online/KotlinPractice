@@ -9,10 +9,24 @@ fun main(args: Array<String>) {
     }
     i=1
     j=1
+    //by default the "step" of increment is 1
     for(i in 1..20){
         for(j in 1..20){
             println("${i} X ${j} = "+(i*j))
         }
         println()
+    }
+
+    //if the step is made more than 1
+    for(i in 1..20 step 2){
+        for(j in 1..20){
+            println("${i} X ${j} = "+(i*j))
+        }
+        println()
+    }
+
+    //to make the upper bound not included
+    for(i in 1 until 20){
+        print(i)
     }
 }
