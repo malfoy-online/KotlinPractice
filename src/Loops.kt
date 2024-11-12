@@ -27,6 +27,13 @@ fun main(args: Array<String>) {
 
     //to make the upper bound not included
     for(i in 1 until 20){
-        print(i)
+        println(i)
     }
+
+    //decrement range (1)
+    for(i in 20 downTo 1){
+        println(i)
+    }
+
+
 }
